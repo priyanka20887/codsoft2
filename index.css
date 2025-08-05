@@ -1,0 +1,101 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0056d6;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  padding: 20px;
+  border-left: 8px solid #0056d6;
+  border-right: 8px solid #0056d6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+.header h1 span {
+  color: crimson;
+}
+
+.header .info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Task Section */
+.task-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Task Cards */
+.task {
+  background: white;
+  padding: 20px;
+  border-left: 5px solid #0056d6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.task h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.task h2 span {
+  background: #0056d6;
+  color: white;
+  padding: 2px 8px;
+  margin-left: 8px;
+  border-radius: 4px;
+}
+
+.task-title {
+  color: #0056d6;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.task p, .task ul {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.task ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.demo-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: crimson;
+}
